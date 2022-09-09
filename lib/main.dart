@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 
-import 'aula-05.dart';
+import 'calculadora.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
+    home: Home(),
+  ));
 }
 
 // class MyApp extends StatelessWidget {

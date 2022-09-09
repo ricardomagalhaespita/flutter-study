@@ -29,12 +29,12 @@ class _homePageState extends State<homePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-        title: Text("                      Calculadora", style: TextStyle(fontSize: 30, color: Colors.black, fontWeight: FontWeight.bold),
+        title: Text("Calculadora", style: TextStyle(fontSize: 30, color: Colors.black, fontWeight: FontWeight.bold),
       
         )
         ),
         body: Column(children:  [
-          Text("Calculadora", style: TextStyle(fontSize: 20, color: Colors.indigo),textAlign: TextAlign.center,), 
+          Text("Calculadora", style: TextStyle(fontSize: 20, color: Colors.indigo),textAlign: TextAlign.center, ), 
           
           TextFormField(
             decoration: const InputDecoration(
