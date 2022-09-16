@@ -2,15 +2,15 @@ import 'package:flutter/material.dart';
 
 
 
-class Home extends StatefulWidget {
-  const Home({super.key});
+class MyApp06 extends StatefulWidget {
+  const MyApp06({super.key});
 
 
   @override
-  State<Home> createState() => _HomeState();
+  State<MyApp06> createState() => HomeState();
 }
 
-class _HomeState extends State<Home> {
+class HomeState extends State<MyApp06> {
   TextEditingController primeiroController = TextEditingController();
   TextEditingController segundoController = TextEditingController();
 

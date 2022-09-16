@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 
-import 'calculadora.dart';
+// import 'calculadora.dart';
+import 'aula-07.dart';
 
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: Home(),
+    home: homePage(),
+   // home: Home(),
   ));
 }
 
