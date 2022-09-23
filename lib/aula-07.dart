@@ -43,36 +43,36 @@ class homePage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              color: Colors.purple,
+              color: Colors.yellow,
               width: 50,
               height: 50,
             ),
             Container(
-              color: Colors.pink,
+              color: Colors.green,
               width: 50,
               height: 50,
             ),
             Container(
-              color: Colors.pink,
+              color: Colors.indigo,
               width: 50,
               height: 50,
             ),
             Row(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Container(
-              color: Colors.pink,
+              color: Colors.red,
               width: 50,
               height: 50,
             ),
             Container(
-              color: Colors.pink,
+              color: Colors.orange,
               width: 50,
               height: 50,
             ),
             Container(
-              color: Colors.pink,
+              color: Colors.white,
               width: 50,
               height: 50,
             ),
